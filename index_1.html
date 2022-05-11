@@ -41,34 +41,14 @@
                 <form>
                     <p>Filter Search</p>
                     <ul class="bg-dark">
-                        <!--create date filter-->
-                        <li class="list-group-item bg-dark">
-                            <label for="date">Enter Date</label></li>
-                            <input type="text" placeholder="1/10/2010" id="datetime" style="display:table-cell; width:100%" />
-                        
-                        <!--create city filter-->
-                        <li class="list-group-item bg-dark">
-                            <label for="city">Enter City</label></li>
-                            <!--Syntax to center input field: https://stackoverflow.com/questions/1281403/place-input-box-at-the-center-of-div-->
-                            <!--Syntax to expand cell to 100%: https://stackoverflow.com/questions/773517/style-input-element-to-fill-remaining-width-of-its-container-->
-                            <!--Syntax to left align labels: https://stackoverflow.com/questions/34558862/trying-to-left-align-labels-->
-                            <input type="text" placeholder="roswell" class="center-block" id="city" style="display:table-cell; width:100%" />
-
-                        <!--create state filter-->
-                        <li class="list-group-item bg-dark">
-                            <label for="state">Enter State</label></li>
-                            <input type="text" placeholder="ca" class="center-block" id="state" style="display:table-cell; width:100%" />
-                        
-                        <!--create country filter-->
-                        <li class="list-group-item bg-dark">
-                            <label for="country">Enter Country</label></li>
-                            <input type="text" placeholder="us" class="center-block" id="country" style="display:table-cell; width:100%" />
-                        
-                        <!--create shape filter-->
-                        <li class="list-group-item bg-dark">
-                            <label for="shape">Enter Shape</label></li>
-                            <input type="text" placeholder="circle" class="center-block" id="shape" style="display:table-cell; width:100%" />
-                        
+                      <li class="list-group-item bg-dark">
+                        <label for="date">Enter Date</label>
+                        <input type="text" placeholder="1/10/2010" id="datetime" />
+                      </li>
+                      <li class="list-group-item bg-dark">
+                          <!--Center button found at: https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button-->
+                         <button id="filter-btn" type="button" class="btn btn-dark col text-center" >Filter Table</button>
+                      </li>
                     </ul>
                 </form>
             </div>

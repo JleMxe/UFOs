@@ -8,3 +8,14 @@ background-image: url("../images/nasa.jpg");
 background-size: 100% 100%;
 text-align: center;
 }
+/* Syntax to center input field: https://stackoverflow.com/questions/1281403/place-input-box-at-the-center-of-div */
+.center-block {
+    margin: auto;
+    display: block;
+  }
+/* Syntax to left align labels: https://stackoverflow.com/questions/34558862/trying-to-left-align-labels */
+label {
+    text-align: left;
+    display: block;
+    text-indent: -5%;
+  }
